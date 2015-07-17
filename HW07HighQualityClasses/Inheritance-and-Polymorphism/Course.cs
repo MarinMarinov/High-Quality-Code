@@ -46,7 +46,7 @@
             {
                 if (value.Count == 0)
                 {
-                    throw new ArgumentException("Students list must contain at least one student");
+                    throw new ArgumentException("Teachers list must contain at least one teacher");
                 }
 
                 this.teachers = value;
