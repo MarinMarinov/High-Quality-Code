@@ -1,0 +1,5 @@
+C:\Telerik\08. KPK\Homeworks\HW07HighQualityClasses\Inheritance-and-Polymorphism\bin\Debug\Inheritance-and-Polymorphism.exe
+C:\Telerik\08. KPK\Homeworks\HW07HighQualityClasses\Inheritance-and-Polymorphism\bin\Debug\Inheritance-and-Polymorphism.pdb
+C:\Telerik\08. KPK\Homeworks\HW07HighQualityClasses\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.csprojResolveAssemblyReference.cache
+C:\Telerik\08. KPK\Homeworks\HW07HighQualityClasses\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.exe
+C:\Telerik\08. KPK\Homeworks\HW07HighQualityClasses\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.pdb
