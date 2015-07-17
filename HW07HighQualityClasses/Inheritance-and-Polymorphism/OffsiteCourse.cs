@@ -8,8 +8,8 @@
     {
         private string town;
 
-        public OffsiteCourse(string courseName, string teacherName, IList<string> students, string town) :
-            base(courseName, teacherName, students)
+        public OffsiteCourse(string courseName, IList<string> teachers, IList<string> students, string town) :
+            base(courseName, teachers, students)
         {
             this.Town = town;
         }

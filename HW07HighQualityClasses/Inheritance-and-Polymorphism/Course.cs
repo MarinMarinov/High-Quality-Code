@@ -7,13 +7,14 @@
     public abstract class Course
     {
         private string courseName;
-        private string teacherName;
+        //private string teacherName;
+        private IList<string> teachers = new List<string>();
         private IList<string> students = new List<string>();
 
-        protected Course(string courseName, string teacherName, IList<string> students)
+        protected Course(string courseName, IList<string> teachers, IList<string> students)
         {
             this.CourseName = courseName;
-            this.TeacherName = teacherName;
+            this.Teachers = teachers;
             this.Students = students;
         }
 
@@ -35,21 +36,21 @@
             }
         }
 
-        public string TeacherName
+        public IList<string> Teachers
         {
             get
             {
-                return this.teacherName;
+                return this.teachers;
             }
 
             set
             {
-                if (value.Length < 3)
+                if (value.Count == 0)
                 {
-                    throw new ArgumentException("Teacher name length must be at least 3 characters");
+                    throw new ArgumentException("Students list must contain at least one student");
                 }
 
-                this.teacherName = value;
+                this.teachers = value;
             }
         }
 
@@ -78,9 +79,9 @@
             result.Append(this.GetType().Name);
             result.Append(": { Name = ");
             result.Append(this.CourseName);
-            result.Append("; Teacher = ");
-            result.Append(this.TeacherName);
-            result.Append("; Teacher name = ");
+            result.Append("; Teachers = ");
+            result.Append(this.GetTeachersAsString());
+            result.Append("; Students = ");
             result.Append(this.GetStudentsAsString());
 
             return result.ToString();
@@ -89,6 +90,11 @@
         private string GetStudentsAsString()
         {
             return "{ " + string.Join(", ", this.Students) + " }";
+        }
+
+        private string GetTeachersAsString()
+        {
+            return "{ " + string.Join(", ", this.Teachers) + " }";
         }
     }
 }

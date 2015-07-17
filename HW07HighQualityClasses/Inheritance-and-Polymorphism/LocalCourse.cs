@@ -8,8 +8,8 @@
     {
         private string lab;
 
-        public LocalCourse(string courseName, string teacherName, IList<string> students, string lab) :
-            base(courseName, teacherName, students)
+        public LocalCourse(string courseName, IList<string> teachers, IList<string> students, string lab) :
+            base(courseName, teachers, students)
         {
             this.Lab = lab;
         }
