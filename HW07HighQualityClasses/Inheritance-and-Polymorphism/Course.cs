@@ -7,7 +7,6 @@
     public abstract class Course
     {
         private string courseName;
-        //private string teacherName;
         private IList<string> teachers = new List<string>();
         private IList<string> students = new List<string>();
 
