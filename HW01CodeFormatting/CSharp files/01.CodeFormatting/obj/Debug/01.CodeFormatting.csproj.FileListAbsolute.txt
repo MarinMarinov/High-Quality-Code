@@ -1,0 +1,1 @@
+C:\Telerik\08. KPK\Homeworks\Homework 01.CodeFormatting\CSharp files\01.CodeFormatting\bin\Debug\01.CodeFormatting.exe.config
