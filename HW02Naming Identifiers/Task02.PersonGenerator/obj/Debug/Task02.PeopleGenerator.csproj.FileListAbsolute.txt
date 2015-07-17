@@ -1,0 +1,6 @@
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task02-CodeRefactoring\obj\Debug\Task02.PeopleGenerator.csprojResolveAssemblyReference.cache
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task02-CodeRefactoring\bin\Debug\Task01-CodeRefactoring.exe.config
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task02-CodeRefactoring\bin\Debug\Task01-CodeRefactoring.exe
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task02-CodeRefactoring\bin\Debug\Task01-CodeRefactoring.pdb
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task02-CodeRefactoring\obj\Debug\Task01-CodeRefactoring.exe
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task02-CodeRefactoring\obj\Debug\Task01-CodeRefactoring.pdb

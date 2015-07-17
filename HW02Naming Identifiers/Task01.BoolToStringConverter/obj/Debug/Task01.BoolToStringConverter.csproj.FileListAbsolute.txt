@@ -1,0 +1,6 @@
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task01.BoolToStringConverter\bin\Debug\Task01.BoolToStringConverter.exe.config
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task01.BoolToStringConverter\obj\Debug\Task01.BoolToStringConverter.csprojResolveAssemblyReference.cache
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task01.BoolToStringConverter\bin\Debug\Task01.BoolToStringConverter.exe
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task01.BoolToStringConverter\bin\Debug\Task01.BoolToStringConverter.pdb
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task01.BoolToStringConverter\obj\Debug\Task01.BoolToStringConverter.exe
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task01.BoolToStringConverter\obj\Debug\Task01.BoolToStringConverter.pdb

@@ -1,0 +1,1 @@
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task01-CodeRefactoring\bin\Debug\Task01-CodeRefactoring.exe.config

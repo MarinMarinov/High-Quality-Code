@@ -1,0 +1,6 @@
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task04.RefactorGameMineSweeper\bin\Debug\Task04.RefactorGameMineSweeper.exe.config
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task04.RefactorGameMineSweeper\bin\Debug\Task04.RefactorGameMineSweeper.exe
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task04.RefactorGameMineSweeper\bin\Debug\Task04.RefactorGameMineSweeper.pdb
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task04.RefactorGameMineSweeper\obj\Debug\Task04.RefactorGameMineSweeper.csprojResolveAssemblyReference.cache
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task04.RefactorGameMineSweeper\obj\Debug\Task04.RefactorGameMineSweeper.exe
+C:\Telerik\08. KPK\Homeworks\02.Naming Identifiers\Task04.RefactorGameMineSweeper\obj\Debug\Task04.RefactorGameMineSweeper.pdb
