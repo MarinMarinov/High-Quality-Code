@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pattern3.FactoryMethod.Manufacturer.Audi">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manufacturer\Audi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pattern3.FactoryMethod.Manufacturer.Skoda">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manufacturer\Skoda.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pattern3.FactoryMethod.Products.A8">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\A8.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern3.FactoryMethod.Products.Car">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAQAAAAAAAAAQAAAAAAAAAAAABgAAAAQA=</HashCode>
+      <FileName>Products\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern3.FactoryMethod.Products.Superb">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Superb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern3.FactoryMethod.Program">
+    <Position X="8.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Pattern3.FactoryMethod.Manufacturer.IManufacturer">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manufacturer\IManufacturer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Pattern3.FactoryMethod.Products.GearType">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\GearType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pattern4.AbstractFactory.Banitsas.Banitsa">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAACAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Banitsas\Banitsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern4.AbstractFactory.Banitsas.CheeseBanitsa">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAABAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Banitsas\CheeseBanitsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern4.AbstractFactory.Banitsas.MeatBanitsa">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAABAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Banitsas\MeatBanitsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern4.AbstractFactory.Factories.HomeMadeBanitsaCompany">
+    <Position X="6.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\HomeMadeBanitsaCompany.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pattern4.AbstractFactory.Factories.SofiaBanitsaCompany">
+    <Position X="8.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\SofiaBanitsaCompany.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pattern4.AbstractFactory.DeliveryCompany">
+    <Position X="2" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DeliveryCompany.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern4.AbstractFactory.Program">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Pattern4.AbstractFactory.Factories.IFactory">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
