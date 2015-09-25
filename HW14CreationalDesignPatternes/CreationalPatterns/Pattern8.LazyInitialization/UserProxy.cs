@@ -2,6 +2,9 @@
 {
     using System.Collections.Generic;
 
+    /// <summary>
+    /// Typical example for Proxy pattern use
+    /// </summary>
     public class UserProxy : User
     {
         public override List<string> Roles

@@ -4,7 +4,7 @@
     {
         public User GetUserById(int id)
         {
-            return new UserProxy
+            return new UserProxy // Returning not User but UserProxy! Liskov substitution principle is kept!
             {
                 Id = id,
             };
