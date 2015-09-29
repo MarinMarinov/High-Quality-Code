@@ -1,32 +1,30 @@
 ﻿using Pattern3.FactoryMethod.Manufacturer;
 using Pattern3.FactoryMethod.Products;
 using System;
-using System.Configuration; // For the ConfigurationManager class. Need to inlcude reference in the References
+using System.Configuration; // For the ConfigurationManager class. Need to include reference in the References
 using System.Reflection; // For the Assembly class
 
 namespace Pattern3.FactoryMethod
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // direct invoking of the manufacturer class
-            IManufacturer skodaManufacturer = new Skoda(); // also possible to make Skoda
+            IManufacturer skodaManufacturer = new Skoda();
             Car skodaCar = skodaManufacturer.MakeCar();
             skodaCar.GetCarInfo();
             skodaCar.Start();
             Console.WriteLine(new string('-', 60));
 
-            // Keeping Dependency Inversion principle- using Constructor injection:
-
+            // Using helper method GiveCar
             GiveCar(new Audi());
             Console.WriteLine(new string('-', 60));
 
             GiveCar(new Skoda());
             Console.WriteLine(new string('-', 60));
 
-            // !!!! USING REFLECTION
-
+            // Using Reflection
             Console.WriteLine("Using Reflection!!!!!!!!!!!!!!!!!!");
             var factoryClassName = ConfigurationManager.AppSettings["ManufacturerFactory"];
             var manufacturer =
@@ -36,7 +34,7 @@ namespace Pattern3.FactoryMethod
             Console.WriteLine(new string('-', 60));
         }
 
-        private static void GiveCar(IManufacturer manufacturer) // Constructor injection
+        private static void GiveCar(IManufacturer manufacturer)
         {
             Car someCar = manufacturer.MakeCar();
             someCar.GetCarInfo();

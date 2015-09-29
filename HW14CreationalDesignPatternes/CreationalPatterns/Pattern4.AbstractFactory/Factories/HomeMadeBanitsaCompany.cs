@@ -5,7 +5,7 @@ namespace Pattern4.AbstractFactory.Factories
 {
     public class HomeMadeBanitsaCompany : IFactory
     {
-        private const string Name = "Bab Gitza Home made Banitsa";
+        private const string Name = "Baba Gitza Home made Banitsa";
 
         public CheeseBanitsa MakeCheeseBanitsa()
         {

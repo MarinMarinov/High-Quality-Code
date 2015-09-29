@@ -4,7 +4,7 @@ namespace Pattern2.SimpleFactory
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // the classic way
             Tea tea = new Tea("Carcade", 100);
