@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pattern7.Mediattor.AbstractRoom">
+    <Position X="2" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAEAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern7.Mediattor.ChatRoom">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAEAEAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChatRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern7.Mediattor.Chatter">
+    <Position X="6" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAQCAAAEAgASAAAAAAAAAAA=</HashCode>
+      <FileName>Chatter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern7.Mediattor.Helicopter">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Helicopter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern7.Mediattor.Plane">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Plane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern7.Mediattor.Program">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
