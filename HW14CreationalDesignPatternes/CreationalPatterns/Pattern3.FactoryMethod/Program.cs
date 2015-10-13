@@ -17,7 +17,7 @@ namespace Pattern3.FactoryMethod
             skodaCar.Start();
             Console.WriteLine(new string('-', 60));
 
-            // Using helper method GiveCar
+            // Using Factory method GiveCar
             GiveCar(new Audi());
             Console.WriteLine(new string('-', 60));
 
