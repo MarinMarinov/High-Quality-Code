@@ -19,24 +19,24 @@
         public int CompareTo(object obj)
         {
             Event other = obj as Event;
-            int my_byDate = this.date.CompareTo(other.date);
-            int my_byTitle = this.title.CompareTo(other.title);
-            int my_byLocation = this.location.CompareTo(other.location);
+            int byDate = this.date.CompareTo(other.date);
+            int byTitle = this.title.CompareTo(other.title);
+            int byLocation = this.location.CompareTo(other.location);
 
-            if (my_byDate == 0)
+            if (byDate == 0)
             {
-                if (my_byTitle == 0)
+                if (byTitle == 0)
                 {
-                    return my_byLocation;
+                    return byLocation;
                 }
                 else
                 {
-                    return my_byTitle;
+                    return byTitle;
                 }
             }
             else
             {
-                return my_byDate;
+                return byDate;
             }
         }
 
@@ -46,7 +46,7 @@
             toString.Append(this.date.ToString("yyyy-MM-ddTHH:mm:ss"));
             toString.Append(" | " + this.title);
 
-            if (this.location != null && this.location != string.Empty)
+            if (!string.IsNullOrEmpty(this.location))
             {
                 toString.Append(" | " + this.location);
             }

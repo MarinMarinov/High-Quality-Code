@@ -6,7 +6,7 @@
     {
         private static EventHolder events = new EventHolder();
 
-        public static void Main(string[] args)
+        public static void Main()
         {
             while (ExecuteNextCommand())
             {
