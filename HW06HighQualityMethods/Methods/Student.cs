@@ -4,7 +4,7 @@
     
     public class Student
     {
-        private const int DateLenght = 10;
+        private const int DateLength = 10;
 
         public Student(string firstName, string lastName, string otherInfo, string birthDate)
         {

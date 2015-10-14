@@ -3,3 +3,5 @@ C:\Telerik\08. KPK\Homeworks\HW07HighQualityClasses\Abstraction\bin\Debug\Abstra
 C:\Telerik\08. KPK\Homeworks\HW07HighQualityClasses\Abstraction\obj\Debug\Abstraction.csprojResolveAssemblyReference.cache
 C:\Telerik\08. KPK\Homeworks\HW07HighQualityClasses\Abstraction\obj\Debug\Abstraction.exe
 C:\Telerik\08. KPK\Homeworks\HW07HighQualityClasses\Abstraction\obj\Debug\Abstraction.pdb
+C:\Telerik\08. KPK\Homeworks\High-Quality-Code\HW07HighQualityClasses\Abstraction\obj\Debug\Abstraction.exe
+C:\Telerik\08. KPK\Homeworks\High-Quality-Code\HW07HighQualityClasses\Abstraction\obj\Debug\Abstraction.pdb
